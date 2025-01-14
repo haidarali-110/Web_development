@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(149, 162, 138);
+    
+}
+.first{
+    font-size: large;
+    font-style: italic;
+    font-weight: 700;
+    color: aqua;
+    height: 50%;
+}

@@ -1,0 +1,7 @@
+.linkfont{
+    font-weight: 800;
+    
+}
+.linkfont:hover{
+    color: lightcoral;
+}
