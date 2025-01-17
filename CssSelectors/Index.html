@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssSelectors</title>
+    <style>
+        /* Element selctore */
+        div{
+            background-color: red;
+        }
+        /* class selector */
+        .yellow{
+            background-color: yellow;
+        }
+        /* id selector */
+        #blue{
+            background-color: blue;
+        }
+        /* Child selector */
+        div >p{
+            background-color:aquamarine ;
+        }
+         /* descendant selector */
+        div p{
+            background-color: blueviolet;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 20px;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: aqua;
+        }
+        a:link{
+            color: blueviolet;
+        }
+        a:active{
+            background-color: antiquewhite;
+        }
+        a:hover{
+            background-color: blanchedalmond;
+        }
+        p:first-child{
+            background-color: coral;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="onr">
+        <p>First</p>
+        <p>Second</p>
+    </div>
+    <div>
+         this is called css selector
+    </div>
+    <div class="yellow">
+        This is class selector
+    </div>
+    <div id="blue">
+        This id selector
+    </div>
+    <div>
+        <p>This is child selector</p>
+    </div>
+    <div>
+        <article>
+            <p>this is descendant selector</p>
+        </article>
+    </div>
+    <div>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.yahoo.com">yahoo</a>
+    </div>
+    
+</body>
+</html>
